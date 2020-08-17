@@ -5,22 +5,22 @@ jQuery(document).ready(function($){
 	$(".dt-sticky-menu").sticky({ topSpacing: 0 });
 
 	//ONE PAGE NAV...
-	$('#main-menu').onePageNav({
-		currentClass : 'current_page_item',
-		filter		 : ':not(.external)',
-		scrollSpeed  : 750,
-		scrollOffset : 87,
-		scrollChange : fixMagicline
-	});
+	// $('#main-menu').onePageNav({
+	// 	currentClass : 'current_page_item',
+	// 	filter		 : ':not(.external)',
+	// 	scrollSpeed  : 750,
+	// 	scrollOffset : 87,
+	// 	scrollChange : fixMagicline
+	// });
 	
-	//MINI MOBILE MENU...
-    $('nav#main-menu').meanmenu({
-        meanMenuContainer: $('header .menu-main-menu-container'),
-        meanRevealPosition: 'left',
-        meanScreenWidth: 767,
-        meanMenuClose: "<span/><span/><span/>",
-		onePage: true
-    });
+	// //MINI MOBILE MENU...
+    // $('nav#main-menu').meanmenu({
+    //     meanMenuContainer: $('header .menu-main-menu-container'),
+    //     meanRevealPosition: 'left',
+    //     meanScreenWidth: 767,
+    //     meanMenuClose: "<span/><span/><span/>",
+	// 	onePage: true
+    // });
 	
 	//SCROLL TO...	
 	$('#scrolldown a').click(function(){
