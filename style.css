@@ -3,8 +3,8 @@
 
 
 @font-face {
-	font-family: "Teng";
-	src: url("/fonts/TengXiangHeiJian-W3-1.ttf");
+	font-family: 'Teng';
+	src: url("/fonts/TengXiangHeiJian-W3-1.ttf") format('truetype');
 	/* src: url("CustomFont.woff") format("woff"),
 	url("CustomFont.otf") format("opentype"),
 	url("CustomFont.svg#filename") format("svg"); */
